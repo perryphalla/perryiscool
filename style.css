@@ -1,0 +1,116 @@
+body {
+  /*background-color: #374d3b;*/
+  background-color: #293d2d;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    color: green;
+    padding: 0;
+    text-align: center;
+    /*margin: 0;*/
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 80px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    word-spacing: 100px;
+    color: #e7e8ae;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.075em;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 45px;
+  letter-spacing: 0.075em;
+  font-kerning: auto;
+  word-spacing: 55px;
+  padding: 100px 100px 0px 100px;
+  text-align: center;
+  color: #e7e8ae;
+  position: relative;
+  text-decoration: none;
+}
+
+h1 a {
+  font-family: 'DM Serif Display', serif;
+  font-size: 45px;
+  letter-spacing: 0.075em;
+  font-kerning: auto;
+  word-spacing: 55px;
+  text-align: center;
+  color: #e7e8ae;
+  position: relative;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+  letter-spacing: 0.075em;
+  font-kerning: auto;
+  word-spacing: 5px;
+  margin: 0 0 75px 0;
+  text-align: center;
+  color: #e7e8ae;
+  position: relative;
+}
+
+/*p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-kerning: auto;
+  padding-bottom: 0px;
+  text-align: center;
+  color: #e7e8ae;
+  padding: 0px 100px 0px 100px;
+}*/
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 300px;
+  width: 300px;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 5px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+p {
+    color: #e7e8ae;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.075em;
+}
+
+.footer {
+  padding-top: 1000px;
+}
+
+@media all (max-width: 600px) {
+  .perryphalla {
+    font-size: 100px;
+  }
+}
